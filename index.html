@@ -9,6 +9,13 @@
       gtag('js', new Date());
 
       gtag('config', 'G-33HPP11ZLH');
+      
+      // Track tally form page visit
+      gtag('event', 'page_view', {
+          'page_title': 'NYABIHOKO Signup Form',
+          'page_location': window.location.href,
+          'content_group1': 'Tally Form'
+      });
     </script>
     
     <meta charset="UTF-8">
